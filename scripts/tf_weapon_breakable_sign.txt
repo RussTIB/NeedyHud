@@ -1,5 +1,5 @@
-#base "../_SelectAspectRatio/16x9/melee.txt"
-#base "../_SelectAspectRatio/4x3/melee.txt"
+#base "scripts/_SelectAspectRatio/16x9/melee.txt"
+#base "scripts/_SelectAspectRatio/4x3/melee.txt"
 WeaponData
 {
 	// Attributes Base.

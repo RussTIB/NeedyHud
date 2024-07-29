@@ -127,9 +127,9 @@ Scheme
 		
 		"HTMLBackground"						"95 92 101 255"
 		
-		"ItemAttribLevel"						"238 200 239 255"
+		"ItemAttribLevel"						"255 255 255 255"
 		"ItemAttribNeutral"						"255 255 255 255"
-		"ItemAttribPositive"					"67 28 195 255"
+		"ItemAttribPositive"					"204 228 252 255"
 		"ItemAttribNegative"					"248 0 127 255"
 
 		"ItemSetName"							"225 255 15 255"
@@ -229,33 +229,33 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
+		Econ.Button.BgColor									"NeedyBlueDarker"
+		Econ.Button.FgColor									"NeedyDarkText"
+		Econ.Button.ArmedBgColor							"NeedyDarker"
+		Econ.Button.ArmedFgColor							"NeedyDarkText"
+		Econ.Button.DepressedBgColor						"NeedyDarker"
 		Econ.Button.DepressedFgColor						"Black"
 		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
 		Econ.Button.PresetArmedColorFg						"TanLight"
 		Econ.Button.PresetDepressedColorFg					"TanLight"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"NeedyBlueDarker"
+		Econ.Button.PresetArmedColorBg						"NeedyBlueDarker"
+		Econ.Button.PresetDepressedColorBg					"NeedyBlueDarker"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
+		Button.TextColor				"NeedyDarkText"
+		Button.BgColor					"NeedyBlueDarker"
+		Button.ArmedTextColor			"NeedyDarkText"
+		Button.ArmedBgColor				"NeedyBlueDarker"
+		Button.SelectedTextColor		"NeedyDarkText"
+		Button.SelectedBgColor			"NeedyBlueDarker"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedBgColor			"NeedyBlueDarker"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -3531,7 +3531,7 @@ Scheme
 		
 	"EconItemBorder"
 		{
-			"image" "White" "color" "DarkerGray" "bordertype" "scalable_image"
+			"image" "White" "color" "NeedyBlueDarker" "bordertype" "scalable_image"
 		}
 		"Econ.Button.Border.Default"
 		{
@@ -3553,12 +3553,12 @@ Scheme
 				}
 				"2"
 				{
-					"color" "DarkerGray"
+					"color" "NeedyBlueDarker"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "DarkerGray"
+					"color" "NeedyBlueDarker"
 					"offset" "1 1"
 				}
 			}
@@ -3571,12 +3571,12 @@ Scheme
 				}
 				"2"
 				{
-					"color" "DarkerGray"
+					"color" "NeedyBlueDarker"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "DarkerGray"
+					"color" "NeedyBlueDarker"
 					"offset" "1 1"
 				}
 			}
@@ -3589,12 +3589,12 @@ Scheme
 				}
 				"2"
 				{
-					"color" "DarkerGray"
+					"color" "NeedyBlueDarker"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "DarkerGray"
+					"color" "NeedyBlueDarker"
 					"offset" "1 1"
 				}
 			}
@@ -3607,12 +3607,12 @@ Scheme
 				}
 				"2"
 				{
-					"color" "DarkerGray"
+					"color" "NeedyBlueDarker"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "DarkerGray"
+					"color" "NeedyBlueDarker"
 					"offset" "1 1"
 				}
 			}
@@ -3631,7 +3631,7 @@ Scheme
 		}
 		"LoadoutItemPopupBorder" // reused a couple of times for convenience all over the hud.
 		{
-			"image" "White" "color" "low HP" "bordertype" "scalable_image"
+			"image" "White" "color" "NeedyDarkText" "bordertype" "scalable_image"
 		}
 		
 "BackpackItemGrayedOut"

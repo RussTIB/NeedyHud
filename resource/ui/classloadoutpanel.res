@@ -13,9 +13,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"NeedyPink"
-		"infocus_bgcolor_override"					"NeedyPink"
-		"outoffocus_bgcolor_override"				"NeedyPink"
+		"bgcolor_override"							"NeedyBlue"
+		"infocus_bgcolor_override"					"NeedyBlue"
+		"outoffocus_bgcolor_override"				"NeedyBlue"
 
 		"item_xpos_offcenter_a"						"-310"
 		"item_xpos_offcenter_b"						"165"
@@ -218,7 +218,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"TextLabel"
 		{
@@ -234,7 +234,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"CloseButton"
 		{
@@ -256,9 +256,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"235 226 202 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -426,7 +426,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"TextLabel"
 		{
@@ -442,7 +442,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"CloseButton"
 		{
@@ -464,9 +464,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"235 226 202 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"

@@ -64,8 +64,8 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
-		"ypos"	"0"
+		"xpos"	"-4"
+		"ypos"	"c96"
 		"zpos"  "100"
 		"wide"	"200"
 		"tall"	"160"
@@ -232,8 +232,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"			"13"
-		"ypos"			"r70"
+		"xpos"			"c-80"
+		"ypos"			"r140"
 		"wide"		"500"
 		"tall"		"200"
 	}
@@ -458,17 +458,17 @@
 		"TextFont_minmode" "surface11"
 		
 		"TeamBlue"		"0 236 255 255"
-		"TeamBlue_minmode"		"78 119 182 255"
+		"TeamBlue_minmode"		"NeedyBlue"
 		"TeamRed"		"255 26 0 255"
-		"TeamRed_minmode"		"207 73 50 255"
+		"TeamRed_minmode"		"234 82 116 255"
 		"IconColor"		"255 255 255 255"
 		"LocalPlayerColor"	"255 255 0 255"
-		"LocalPlayerColor_minmode"	"HUDBlack"
+		"LocalPlayerColor_minmode"	"77 35 205 255"
 
 		"BaseBackgroundColor"		"0 0 0 0"
-		"BaseBackgroundColor_minmode"		"46 43 42 220"
+		"BaseBackgroundColor_minmode"		"0 0 0 0"
 		"LocalBackgroundColor"	"0 0 0 0"
-		"LocalBackgroundColor_minmode"	"235 235 219 220"
+		"LocalBackgroundColor_minmode"	"0 0 0 0"
 	}
 
 	HudVehicle

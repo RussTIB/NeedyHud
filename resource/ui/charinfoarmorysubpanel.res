@@ -13,11 +13,11 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"NeedyPink"
-		"infocus_bgcolor_override" "NeedyPink"
-		"outoffocus_bgcolor_override" "NeedyPink"
+		"bgcolor_override"	"NeedyBlue"
+		"infocus_bgcolor_override" "NeedyBlue"
+		"outoffocus_bgcolor_override" "NeedyBlue"
 		
-		"thumbnail_bgcolor"			"NeedyDarker"
+		"thumbnail_bgcolor"			"NeedyPinkInv"
 		"thumbnail_bgcolor_mouseover"	"144 144 144 255"
 		"thumbnail_bgcolor_selected"	"188 188 188 255"
 		
@@ -137,12 +137,12 @@
 		"unicode"			"0"
 		
 		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"NeedyDarker"
+		"bgcolor_override"	"NeedyPinkInv"
 		"disabledFgColor_override" "235 226 202 255"
-		"disabledBgColor_override" "NeedyDarker"
-		"selectionColor_override" "NeedyDarker"
+		"disabledBgColor_override" "NeedyPinkInv"
+		"selectionColor_override" "NeedyPinkInv"
 		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "NeedyDarker"
+		"defaultSelectionBG2Color_override" "NeedyPinkInv"
 	}
 	
 	"DataPanel"

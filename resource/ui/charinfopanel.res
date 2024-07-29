@@ -54,7 +54,7 @@
 		"tall"										"120"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor"									"NeedyDarker"
+		"fillcolor"									"NeedyPinkInv"
 		"tileImage"									"1"
 	}
 
@@ -83,7 +83,7 @@
 		"tall"										"60"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor"									"NeedyDarker"
+		"fillcolor"									"NeedyPinkInv"
 		"tileImage"									"1"
 	}
 	"FooterLine"
@@ -131,12 +131,12 @@
 			"font"									"HudFont16Bold"
 			"selectedcolor"							"FullWhite"
 			"unselectedcolor"						"THUnselected"
-			"defaultBgColor_override"				"NeedyPink"
+			"defaultBgColor_override"				"NeedyBlue"
 			"paintbackground"						"1"
 			"activeborder_override"					"LoadoutItemPopupBorder"
 			"normalborder_override"					"LoadoutItemPopupBorder"
-			"armedBgColor_override"					"NeedyPink"
-			"selectedBgColor_override"				"NeedyPink"
+			"armedBgColor_override"					"NeedyBlue"
+			"selectedBgColor_override"				"NeedyBlue"
 
 		}
 	}

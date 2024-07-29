@@ -72,8 +72,8 @@
 			"depressedFgColor_override"				"White"
 
 			"defaultBgColor_override"				"TransparentBlack"
-			"armedBgColor_override"					"DarkGray"
-			"depressedBgColor_override"				"DarkGray"
+			"armedBgColor_override"					"NeedyPink"
+			"depressedBgColor_override"				"NeedyPink"
 		}
 		"PartySlot0"
 		{

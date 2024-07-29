@@ -12,9 +12,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"NeedyPink"
-		"infocus_bgcolor_override"					"NeedyPink"
-		"outoffocus_bgcolor_override"				"NeedyPink"
+		"bgcolor_override"							"NeedyBlue"
+		"infocus_bgcolor_override"					"NeedyBlue"
+		"outoffocus_bgcolor_override"				"NeedyBlue"
 
 		"selectlabely_default"						"25"
 		"selectlabely_onchanges"					"15"
@@ -742,7 +742,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"TextLabel"
 		{
@@ -758,7 +758,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"CloseButton"
 		{
@@ -780,9 +780,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -838,9 +838,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -898,7 +898,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"TextLabel"
 		{
@@ -914,7 +914,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"CloseButton"
 		{
@@ -936,9 +936,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -977,9 +977,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1035,9 +1035,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1095,7 +1095,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"TextLabel"
 		{
@@ -1111,7 +1111,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"CloseButton"
 		{
@@ -1133,9 +1133,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -1175,9 +1175,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1233,9 +1233,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1293,7 +1293,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"TextLabel"
 		{
@@ -1309,7 +1309,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"CloseButton"
 		{
@@ -1331,9 +1331,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -1373,9 +1373,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1431,9 +1431,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1491,7 +1491,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"TextLabel"
 		{
@@ -1507,7 +1507,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"CloseButton"
 		{
@@ -1529,9 +1529,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -1571,9 +1571,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1629,9 +1629,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1689,7 +1689,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"TextLabel"
 		{
@@ -1705,7 +1705,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"CloseButton"
 		{
@@ -1727,9 +1727,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -1769,9 +1769,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1827,9 +1827,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -1886,7 +1886,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"TextLabel"
 		{
@@ -1902,7 +1902,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"NeedyPink"
+			"fgcolor"								"NeedyBlue"
 		}
 		"CloseButton"
 		{
@@ -1924,9 +1924,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"White"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -1966,9 +1966,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"NeedyPink"
+			"defaultFgColor_override"				"NeedyBlue"
 			"armedFgColor_override"					"200 80 60 255"
-			"depressedFgColor_override"				"NeedyPink"
+			"depressedFgColor_override"				"NeedyBlue"
 
 			"image_drawcolor"						"White"
 			"image_armedcolor"						"255 255 255 255"
@@ -2026,6 +2026,6 @@
 		"tall"										"f100"
 		"visible"									"0"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"NeedyPink"
+		"bgcolor_override"							"NeedyBlue"
 	}
 }

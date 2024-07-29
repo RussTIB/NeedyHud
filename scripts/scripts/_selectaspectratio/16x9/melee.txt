@@ -1,0 +1,16 @@
+WeaponData
+{
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"crosshair"
+		{
+			  "file"	"vgui/replay/thumbnails/mel"
+			  "x"	"0"
+			  "y"	"8"
+			  "width"	"1024"
+			  "height"	"256"
+		}
+	}
+
+}

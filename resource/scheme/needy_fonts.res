@@ -275,6 +275,17 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
+		surface30
+		{
+			"1"
+			{
+				"name"		"PixelMplus12 Regular"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		surface32
 		{
 			"1"
