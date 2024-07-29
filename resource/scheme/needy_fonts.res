@@ -631,6 +631,45 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		// Icon Fonts
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		"Icons14"
+		{
+			"1"
+			{
+			"name"	"TF2 Icons"
+			"tall"	"16"
+			"antialias" "1"
+			}
+		}
+		"Icons16"
+		{
+			"1"
+			{
+			"name"	"TF2 Icons"
+			"tall"	"16"
+			"antialias" "1"
+			}
+		}
+		"Icons18"
+		{
+			"1"
+			{
+			"name"	"TF2 Icons"
+			"tall"	"18"
+			"antialias" "1"
+			}
+		}
+		"Icons20"
+		{
+			"1"
+			{
+			"name"	"TF2 Icons"
+			"tall"	"20"
+			"antialias" "1"
+			}
+		}
 	}
 	
 	CustomFontFiles
@@ -654,6 +693,11 @@ Scheme
 		{
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
+		}
+		"100"
+		{
+			"font"	"resource/fonts/TF2 Icons.ttf"
+			"name"	"TF2 Icons"
 		}
 	}
 }
