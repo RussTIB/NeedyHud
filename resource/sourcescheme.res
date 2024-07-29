@@ -139,7 +139,7 @@ Scheme
 		MainMenu.TextColor			"G_Text"			[$WIN32]
 		MainMenu.ArmedTextColor		"G_SelectedText"	[$WIN32]
 		MainMenu.Inset				"32"
-		
+		MainMenu.Backdrop 		"0 0 0 0"
 		Menu.TextInset			"6"
 		Menu.TextColor			"G_Text"
 		Menu.BgColor			"G_ListBg"

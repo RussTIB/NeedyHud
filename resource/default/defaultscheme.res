@@ -229,7 +229,7 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"NeedyBlueDarker"
+		Econ.Button.BgColor									"NeedyBlueButtons"
 		Econ.Button.FgColor									"NeedyDarkText"
 		Econ.Button.ArmedBgColor							"NeedyDarker"
 		Econ.Button.ArmedFgColor							"NeedyDarkText"
@@ -240,22 +240,22 @@ Scheme
 		Econ.Button.PresetArmedColorFg						"TanLight"
 		Econ.Button.PresetDepressedColorFg					"TanLight"
 		
-		Econ.Button.PresetDefaultColorBg					"NeedyBlueDarker"
-		Econ.Button.PresetArmedColorBg						"NeedyBlueDarker"
-		Econ.Button.PresetDepressedColorBg					"NeedyBlueDarker"
+		Econ.Button.PresetDefaultColorBg					"NeedyBlueButtons"
+		Econ.Button.PresetArmedColorBg						"NeedyBlueButtons"
+		Econ.Button.PresetDepressedColorBg					"NeedyBlueButtons"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"NeedyDarkText"
-		Button.BgColor					"NeedyBlueDarker"
+		Button.BgColor					"NeedyBlueButtons"
 		Button.ArmedTextColor			"NeedyDarkText"
 		Button.ArmedBgColor				"NeedyBlueDarker"
 		Button.SelectedTextColor		"NeedyDarkText"
 		Button.SelectedBgColor			"NeedyBlueDarker"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"NeedyBlueDarker"
+		Button.DepressedBgColor			"NeedyBlueButtons"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -3531,7 +3531,7 @@ Scheme
 		
 	"EconItemBorder"
 		{
-			"image" "White" "color" "NeedyBlueDarker" "bordertype" "scalable_image"
+			"image" "White" "color" "NeedyBlueButtons" "bordertype" "scalable_image"
 		}
 		"Econ.Button.Border.Default"
 		{
@@ -3553,12 +3553,12 @@ Scheme
 				}
 				"2"
 				{
-					"color" "NeedyBlueDarker"
+					"color" "NeedyBlueButtons"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "NeedyBlueDarker"
+					"color" "NeedyBlueButtons"
 					"offset" "1 1"
 				}
 			}
@@ -3571,12 +3571,12 @@ Scheme
 				}
 				"2"
 				{
-					"color" "NeedyBlueDarker"
+					"color" "NeedyBlueButtons"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "NeedyBlueDarker"
+					"color" "NeedyBlueButtons"
 					"offset" "1 1"
 				}
 			}
@@ -3589,12 +3589,12 @@ Scheme
 				}
 				"2"
 				{
-					"color" "NeedyBlueDarker"
+					"color" "NeedyBlueButtons"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "NeedyBlueDarker"
+					"color" "NeedyBlueButtons"
 					"offset" "1 1"
 				}
 			}
@@ -3607,12 +3607,12 @@ Scheme
 				}
 				"2"
 				{
-					"color" "NeedyBlueDarker"
+					"color" "NeedyBlueButtons"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "NeedyBlueDarker"
+					"color" "NeedyBlueButtons"
 					"offset" "1 1"
 				}
 			}

@@ -27,6 +27,7 @@ Scheme
 		"TransparentNeedyBlue"			"204 228 252 192"
 		"NeedyRed"						"234 82 116 255"
 		"NeedyBlueDarker"				"162 181 201 255"
+		"NeedyBlueButtons"				"142 158 175 255"
 		"NeedyDarkText"					"77 35 205 255"
 		"FullBlack"						"0 0 0 255"
 		///////////////////////////////////////////////////////////
