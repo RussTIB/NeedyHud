@@ -4,7 +4,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusEscort"
-		"xpos"										"cs-0.42"
+		"xpos"										"cs-0.5"
 		"ypos"										"r15"
 		"zpos"										"1"
 		"wide"										"103"
@@ -281,11 +281,12 @@
 			"xpos"									"9999"
 		}
 		"EscortHilightSwoop"
-                {
-                        "ControlName" "CControlPointIconSwoop"
-                        "fieldName" "EscortHilightSwoop"
-                        "xpos" "9999"
-                        "alpha" "0"
-                 }
+        {
+            "ControlName" "CControlPointIconSwoop"
+            "fieldName" "EscortHilightSwoop"
+            "xpos" "9999"
+			"wide"  "0"
+            "alpha" "0"
+        }
 	}
 }

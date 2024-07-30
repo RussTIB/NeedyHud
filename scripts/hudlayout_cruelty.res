@@ -52,7 +52,7 @@
 		"fieldName" "HudObjectiveStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"-10"
+		"xpos"	"0"
 		"ypos"	"-30"
 		"zpos"  "100"
 		"wide"	"f0"
