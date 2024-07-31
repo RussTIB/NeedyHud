@@ -5,7 +5,7 @@ hud """recreation""" from that [funny menhera game](https://store.steampowered.c
 DM either me (@RussTIB) or techno (@tekunotri) for issue!
 
 > [!WARNING]
-> this hud only supports 16:9, other aspect ratios are not supported whatsoever.
+> this hud only supports 16:9 at 1920x1080, other aspect ratios/resolutions are not supported whatsoever.
 
 > [!NOTE]
 > this hud comes with it's own crosshairs/weapon crosshair scripts, for intended experience remove whatever vtf crosshairs you may have in your custom folder.
