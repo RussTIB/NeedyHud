@@ -11,7 +11,8 @@
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"		"1"
-		"enabled"		"1"		
+		"enabled"		"1"
+				
 	}
 	"Crosshair"
 	{
@@ -20,27 +21,51 @@
 		"zpos"				"0"
 		"xpos"		        "cs-0.5"
 		"ypos"		        "cs-0.5"
-		"wide"				"25"
-		"tall"				"25"
+		"wide"				"32"
+		"tall"				"32"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/CrosshairCROSS"
+		"image"				"replay/thumbnails/Crosshair"
 		"scaleImage"		"1"
+		"visible_minmode"	"1"
+		"drawcolor"			"NeedyBlue"
 	}
 	"Speedo"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Speedo"
 		"xpos"		"c-318"
+		"xpos_minmode"	"cs-0.5+1"
 		"ypos"		"c-54"
+		"ypos_minmode"		"c18"
 		"zpos"		"3"
 		"wide"		"38"
 		"tall"		"8"
 		"visible"		"1"
 		"enabled"		"1"
-        "fgcolor"   "67 28 195 255"
+        "drawcolor"   "67 28 195 255"
+        "drawcolor_minmode"   "NeedyBlue"
 		"image"		"replay/thumbnails/speedometer"
+		"image_minmode"		"replay/thumbnails/speedometer_centered"
 		"scaleImage"	"1"	
+	}	
+	"SpeedoShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SpeedoShadow"
+		"xpos"		"-1"
+		"ypos"		"-1"
+		"zpos"		"3"
+		"wide"		"38"
+		"tall"		"8"
+		"visible"		"0"
+		"enabled"		"1"
+        "drawcolor"   "0 0 0 255"
+		"image"		"replay/thumbnails/speedometer"
+		"image_minmode"		"replay/thumbnails/speedometer_centered"
+		"scaleImage"	"1"	
+		"pin_to_sibling"	"Speedo"
+		"visible_minmode"	"1"
 	}	
 	"DMG"
 	{
@@ -56,6 +81,7 @@
 		"image"		"replay/thumbnails/DMG"
 		"scaleImage"	"1"	
 		"alpha"         "0"
+		"visible_minmode"	"0"
 	}
 	"JINE"
 	{
@@ -69,7 +95,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"		"replay/thumbnails/JINE"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+		"visible_minmode"	"0"
+	
 	}	
 	"Task Manager"
 	{
@@ -83,7 +111,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"		"replay/thumbnails/Task Manager"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
+		"visible_minmode"	"0"
+	
 	}	
 	"PlayerStatusClassImage"
 	{

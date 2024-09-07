@@ -4,9 +4,7 @@
 	"$translucent" 1
 	"$vertexcolor" 1
 	"$no_fullbright" 1
-	"$ignorez" 1
 	"$speed" 0
-	"$color" "{ 67 28 195 }"
 	Proxies {
 		PlayerSpeed {
 			scale 1

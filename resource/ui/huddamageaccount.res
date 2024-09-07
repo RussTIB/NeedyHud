@@ -18,7 +18,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"DamageAccountLabel"
 		"xpos"			"c-386"
+		"xpos_minmode"	"c120"
 		"ypos"			"c123"
+		"ypos_minmode"	"c20"
 		"zpos"			"100"
 		"wide"			"100"
 		"tall"			"30"
@@ -29,4 +31,23 @@
 		"fgcolor"		"Damage Numbers"
 		"font"			"DamageNumberHud"
 	}
+	"DamageAccountLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"DamageAccountLabelShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"100"
+		"wide"			"100"
+		"tall"			"30"
+		"visible"		"0"
+		"visible_minmode"	"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"		"north"
+		"fgcolor"		"0 0 0 255"
+		"font"			"DamageNumberHud"
+		"pin_to_sibling" "DamageAccountLabel"
+	}
+
 }

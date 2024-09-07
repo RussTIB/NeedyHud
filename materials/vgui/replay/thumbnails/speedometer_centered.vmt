@@ -1,0 +1,20 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/speedometer_centered"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$speed" 0
+	Proxies {
+		PlayerSpeed {
+			scale 1
+			resultVar $speed
+		}
+		Clamp {
+			min 0
+			max 3500
+			srcVar1 $speed
+			resultVar $frame
+		}
+	}
+}

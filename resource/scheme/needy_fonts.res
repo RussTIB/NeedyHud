@@ -687,27 +687,27 @@ Scheme
 	{
 		"8"
 		{
-			"font" "resource/fonts/PixelMplus12-Regular.ttf"
+			"font" "resource/scheme/fonts/PixelMplus12-Regular.ttf"
 			"name" "PixelMplus12 Regular"
 		}
 		"9"
 		{
-			"font" "resource/fonts/gamefont.ttf"
+			"font" "resource/scheme/fonts/gamefont.ttf"
 			"name" "gamefont"
 		}
 		"10"
 		{
-			"font" "resource/fonts/Blank.ttf"
+			"font" "resource/scheme/fonts/Blank.ttf"
 			"name" "Blank"
 		}
 		"11"
 		{
-			"font" "resource/fonts/Blocks.ttf"
+			"font" "resource/scheme/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
 		"100"
 		{
-			"font"	"resource/fonts/TF2 Icons.ttf"
+			"font"	"resource/scheme/fonts/TF2 Icons.ttf"
 			"name"	"TF2 Icons"
 		}
 	}
