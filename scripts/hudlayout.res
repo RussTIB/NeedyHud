@@ -449,7 +449,9 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"	"r680"
+        "xpos_minmode"  "r640"
 		"ypos"	"48"
+        "ypos_minmode"  "18"
 		"wide"	"628"
 		"tall"	"468"
 
