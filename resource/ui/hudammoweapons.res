@@ -43,7 +43,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"xpos"			"c8"
-		"ypos"			"c526"
+		"ypos"			"c523"
 		"wide"			"100"
 		"tall"			"40"
 		"zpos"			"5"
@@ -72,8 +72,12 @@
 		"enabled"		"1"
 		"labelText"		"%Ammo%"
 		"textAlignment"	"east"
+		"textAlignment_minmode"	"east"
 		"font"			"surface18"
+        "font_minmode"	"surface32"
 		"fgcolor"		"0 0 0 255"
+		"fgcolor_minmode"	"0 0 0 255"
+		"pin_to_sibling"	"AmmoInClip"
 	}
 	"AmmoInReserve"
 	{
@@ -84,7 +88,7 @@
 		"xpos"			"c116"
 		"xpos_minmode"			"c115.3"
 		"ypos"			"c528"
-		"ypos_minmode"			"c528"
+		"ypos_minmode"			"c526"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"40"
@@ -92,6 +96,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%AmmoInReserve%"
+		"labeltext_minmode"		"#ReserveText"
 	}
 	"AmmoInReserveShadow"
 	{
@@ -99,8 +104,11 @@
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"surface12"
 		"fgcolor"		"152 152 152 255"
+		"fgcolor_minmode"	"0 0 0 255"
 		"xpos"			"c109"
+		"xpos_minmode"	"-1"
 		"ypos"			"c527"
+		"ypos_minmode"	"-1"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"40"
@@ -108,7 +116,13 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"/"
+		"labeltext_minmode"		"#ReserveText"
+		"pin_to_sibling_minmode"	"AmmoInReserve"
+
 	}
+	 // most hacked shit together due to ammoinclip shadow appearing when it shouldnt, eg: playing pyro/heavy/snip etc -techno
+	 // if you move this you also have to move ammoinclip as its shadow is pinned to it with pin_to_sibling
+	 // it works and since i dont intend to make this support any other res it can stay.
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
@@ -117,24 +131,30 @@
         "font_minmode"	"surface32"
 		"fgcolor"		"HP"
 		"xpos"		"c42"
+		"xpos_minmode"	"c-17"
 		"ypos"		"c513"
+		"ypos_minmode"	"c511"
 		"zpos"		"5"
+		"zpos_minmode"	"8"
 		"wide"		"125"
 		"tall"		"65"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"center"
+		"textAlignment_minmode" "east"
 		"labelText"		"%Ammo%"
 	}	
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"AmmonoClipshadow"
+		"fieldName"		"AmmoNoClipShadow"
 		"font"			"surface18"
         "font_minmode"	"surface32"
 		"fgcolor"		"0 0 0 255"
         "xpos"          "9999"  
         "ypos"          "9999"
+		"xpos_minmode"	"-1"
+		"ypos_minmode"	"-1"
 		"zpos"		"5"
 		"wide"		"125"
 		"tall"		"65"
@@ -142,8 +162,8 @@
         "visible_minmode"   "0"
 		"enabled"		"1"
 		"textAlignment"	"center"	
+		"textAlignment_minmode" "east"
 		"labelText"		"%Ammo%"
         "pin_to_sibling"    "AmmoNoClip"
-
 	}									
 }
