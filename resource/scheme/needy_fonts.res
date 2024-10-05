@@ -149,6 +149,19 @@ Scheme
 				"outline"	"0"
 			}
 		}
+		surface16shadow
+		{
+			"1"
+			{
+				"name"		"PixelMplus12 Regular"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"0"
+				"dropshadow" "1"
+			}
+		}
+
 		surface18
 		{
 			"1"
