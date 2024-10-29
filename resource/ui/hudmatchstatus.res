@@ -264,7 +264,9 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-400"
+		"xpos_minmode"		"cs-0.5+55"
 		"ypos"				"c70"
+		"ypos_minmode"		"0"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"480"
@@ -277,13 +279,29 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"2"
 		"delta_item_font"		"surface14"
-		
+				
+				
+		if_match
+		{	
+			"xpos_minmode"			"cs-0.5"
+			"wide"					"100"
+			"ypos_minmode"			"20"
+			"delta_item_x"			"35"
+			"delta_item_start_y"	"12"
+			"delta_item_end_y"		"50"
+			"PositiveColor"			"0 255 0 255"
+			"NegativeColor"			"255 0 0 255"
+			"delta_lifetime"		"1.5"
+			"delta_item_font"		"HudFontMediumSmall"
+		}
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"surface16"
+			"font_minmode"			"surface16shadow"
 			"fgcolor"		"HP"
+			"fgcolor_minmode"	"NeedyBlue"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
@@ -293,14 +311,16 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"0:00"
-		}	
+		}
 	}
 	"TeamStatus"
 	{
 		"ControlName"								"CTFTeamStatus"
 		"fieldName"									"TeamStatus"
 		"xpos"										"140"
+		"xpos_minmode"								"-25"
 		"ypos"										"c198"
+		"ypos_minmode"								"0"
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"15"
