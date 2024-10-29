@@ -508,10 +508,9 @@ Scheme
 			"5"
 			{
 				"name"		"PixelMplus12 Regular"
-				"tall"		"24"
+				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -588,10 +587,9 @@ Scheme
 			"5"
 			{
 				"name"		"PixelMplus12 Regular"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -643,10 +641,9 @@ Scheme
 			"5"
 			{
 				"name"		"PixelMplus12 Regular"
-				"tall"		"16"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -689,10 +686,9 @@ Scheme
 			"5"
 			{
 				"name"		"PixelMplus12 Regular"
-				"tall"		"30"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -769,9 +765,8 @@ Scheme
 			"5"
 			{
 				"name"		"PixelMplus12 Regular"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
 			}
 		}
 		"HudFontGiant"
@@ -817,11 +812,10 @@ Scheme
 			"5"
 			{
 				"name"		"PixelMplus12 Regular"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -898,14 +892,23 @@ Scheme
 		}
 		"HudFontMediumSecondary"
 		{
-			"1"
-			{
-				"name"		"PixelMplus12 Regular"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
+            "1"
+            {
+                "name"        "PixelMplus12 Regular"
+                "tall"        "24"
+                "weight"    "500"
+                "yres"        "1 1199"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "2" // Misyl: Proportional
+            {
+                "name"        "PixelMplus12 Regular"
+                "tall"        "10"
+                "weight"    "500"
+                "additive"    "0"
+                "antialias" "1"
+            }
 		}
 		"HudFontMediumBold"
 		{
