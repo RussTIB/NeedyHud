@@ -6,11 +6,11 @@
 		"fieldName"		"VotePassed"
 		"xpos"			"10"
 		"ypos"			"r315"
-		"wide"			"136"
-		"tall"			"57"
+		"wide"			"150"
+		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorder"
+		"border"		"TFFatLineBorderOpaque"
 				
 		"PassedIcon"
 		{
@@ -40,7 +40,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface10"
+			"font"			"ScoreboardSmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}
@@ -51,7 +51,7 @@
 			"fieldName"		"PassedResult"
 			"xpos"			"10"
 			"ypos"			"29"
-			"wide"			"126"
+			"wide"			"130"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -59,7 +59,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface10"
+			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 			"noshortcutsyntax" "1"
@@ -72,11 +72,11 @@
 		"fieldName"		"VoteActive"
 		"xpos"			"10"
 		"ypos"			"r315"
-		"wide"			"142"
-		"tall"			"138"
+		"wide"			"150"
+		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorder"
+		"border"		"TFFatLineBorderOpaque"
 		
 		"Header"
 		{
@@ -92,7 +92,7 @@
 			"textAlignment"		"north-west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"surface10"
+			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
 		}
@@ -103,7 +103,7 @@
 			"fieldName"		"Issue"
 			"xpos"			"10"
 			"ypos"			"22"
-			"wide"			"130"
+			"wide"			"120"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -111,10 +111,25 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface11"
+			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
+		}
+
+		"TargetAvatarImage"
+		{
+			"ControlName"	"CAvatarImagePanel"
+			"fieldName"		"TargetAvatarImage"
+			"xpos"			"10"
+			"ypos"			"23"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			""
+			"scaleImage"	"1"	
+			"color_outline"	"52 48 45 255"
 		}
 		
 		// divider
@@ -147,7 +162,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface10"
+			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -179,7 +194,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface11"
+			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -198,7 +213,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface10"
+			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -230,7 +245,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface11"
+			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -249,7 +264,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface10"
+			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -281,7 +296,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface10"
+			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -313,7 +328,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface10"
+			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -357,7 +372,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface10"
+			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"128 128 128 255"
 		}
 		
@@ -388,11 +403,11 @@
 		"fieldName"		"CallVoteFailed"
 		"xpos"			"10"
 		"ypos"			"c-80"
-		"wide"			"136"
-		"tall"			"57"
+		"wide"			"150"
+		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorder"
+		"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -422,7 +437,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface11"
+			"font"			"ScoreboardSmall"
 			"wrap"			"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
@@ -433,7 +448,7 @@
 			"fieldName"		"FailedReason"
 			"xpos"			"10"
 			"ypos"			"29"
-			"wide"			"126"
+			"wide"			"140"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -441,7 +456,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface10"
+			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}		
@@ -454,11 +469,11 @@
 		"fieldName"		"VoteFailed"
 		"xpos"			"10"
 		"ypos"			"r315"
-		"wide"			"136"
-		"tall"			"57"
+		"wide"			"150"
+		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorder"
+		"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -488,7 +503,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface11"
+			"font"			"ScoreboardSmall"
 			"wrap"			"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
@@ -499,7 +514,7 @@
 			"fieldName"		"FailedReason"
 			"xpos"			"10"
 			"ypos"			"29"
-			"wide"			"126"
+			"wide"			"130"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -507,7 +522,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"surface10"
+			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}		
@@ -517,29 +532,30 @@
 	{
 		"ControlName"		"CVoteSetupDialog"
 		"fieldName"			"VoteSetupDialog"
-		"xpos"				"c-200"
-		"ypos"				"c-150"
-		"wide"				"400"
-		"tall"				"250"
+		"xpos"				"c-300"
+		"ypos"				"c-180"
+		"wide"				"600"
+		"tall"				"360"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaqueVote"
+		"border"			"TFFatLineBorderOpaque"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackground"	"0"
 
-		"header_font"		"surface14"
-		"header_fgcolor"	"255 255 255 255"
+		"header_font"		"ItemFontNameLarge"
+		"player_font"		"Default"
+		"header_fgcolor"	"Orange"
 
 		"issue_width"		"180"		
-		"issue_font"		"surface10"
-		"issue_fgcolor"		"255 255 255 255"
+		"issue_font"		"ItemFontNameSmall"
+		"issue_fgcolor"		"TanLight"
 		"issue_fgcolor_disabled"	"TanDark"
 		
-		"parameter_width"	"200"
+		"parameter_width"	"370"
 
 		"TitleLabel"
 		{
@@ -550,7 +566,7 @@
 			"textAlignment"	"north"
 			"xpos"			"0"
 			"ypos"			"10"
-			"wide"			"0"
+			"wide"			"550"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -558,13 +574,13 @@
 			"enabled"		"1"
 			"wrap"			"0"
 		}
-		
+									
 		"VoteSetupList"
 		{
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"VoteSetupList"
 			"xpos"		"10"
-			"ypos"		"8"
+			"ypos"		"38"
 			"zpos"		"2"
 			"wide"		"180"
 			"tall"		"200"
@@ -582,10 +598,10 @@
 			"ControlName"		"SectionedListPanel"
 			"fieldName"		"VoteParameterList"
 			"xpos"		"190"
-			"ypos"		"8"
+			"ypos"		"38"
 			"zpos"		"2"
-			"wide"		"200"
-			"tall"		"200"
+			"wide"		"400"
+			"tall"		"280"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -598,13 +614,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ComboLabel"
-			"font"			"surface11"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"%combo_label%"
 			"textAlignment"	"east"
-			"xpos"			"5"
-			"ypos"			"215"
+			"xpos"			"10"
+			"ypos"			"245"
 			"zpos"			"1"
-			"wide"			"0" //75
+			"wide"			"75"
 			"tall"			"20"
 			"autoResize"	"1"
 			"pinCorner"		"0"
@@ -615,11 +631,11 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
-			"Font"				"surface11"
-			"xpos"				"85"
-			"ypos"				"215"
+			"Font"				"HudFontSmallestBold"
+			"xpos"				"17"
+			"ypos"				"265"
 			"zpos"				"1"
-			"wide"				"0" //205
+			"wide"				"160"
 			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -645,30 +661,30 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"CallVoteButton"
-			"xpos"		"65"
-			"ypos"		"215"
-			"wide"		"100"
+			"xpos"		"330"
+			"ypos"		"325"
+			"wide"		"160"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"0"
 			"tabPosition"	"4"
-			"labelText"		"Call Vote"
+			"labelText"		"#TF_call_vote"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"CallVote"
 			"Default"		"0"
-			"font"			"surface15"
+			"font"			"HudFontSmallBold"
 		}
 		"Button1"
 		{
 			"ControlName"		"Button"
 			"fieldName"		"Button1"
-			"xpos"		"235"
-			"ypos"		"215"
-			"wide"		"100"
+			"xpos"		"500"
+			"ypos"		"325"
+			"wide"		"80"
 			"tall"		"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -681,7 +697,7 @@
 			"brighttext"	"0"
 			"Command"		"Close"
 			"Default"		"0"
-			"font"			"surface15"
+			"font"			"HudFontSmallBold"
 		}
 	}
 }
