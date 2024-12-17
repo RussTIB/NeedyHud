@@ -1,5 +1,4 @@
-#base "scripts/_SelectAspectRatio/16x9/primary.txt"
-#base "scripts/_SelectAspectRatio/4x3/primary.txt"
+#base "scripts/primary.txt"
 
 WeaponData
 {

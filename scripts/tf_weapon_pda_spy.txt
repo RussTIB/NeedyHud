@@ -1,5 +1,4 @@
-#base "scripts/_SelectAspectRatio/16x9/secondary.txt"
-#base "scripts/_SelectAspectRatio/4x3/secondary.txt"
+#base "scripts//secondary.txt"
 WeaponData
 {
 	// Attributes Base.
