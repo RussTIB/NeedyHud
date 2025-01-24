@@ -453,53 +453,6 @@ Scheme
 				"antialias" "0"
 			}
 		}
-		
-		"Default"
-		{
-			"1"
-			{
-				"name"		"PixelMplus12 Regular"
-				"tall"		"14"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"		"PixelMplus12 Regular"
-				"tall"		"15"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"		"PixelMplus12 Regular"
-				"tall"		"16"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"PixelMplus12 Regular"
-				"tall"		"22"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"PixelMplus12 Regular"
-				"tall"		"26"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-			"6"
-			{
-				"name"		"PixelMplus12 Regular"
-				"tall"		"14"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		
 		"HealthFont"
 		{
 			"1"
