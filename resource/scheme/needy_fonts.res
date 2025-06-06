@@ -615,7 +615,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"	"TF2 Icons"
+			"name"	"tf2icons"
 			"tall"	"16"
 			"antialias" "1"
 			}
@@ -624,7 +624,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"	"TF2 Icons"
+			"name"	"tf2icons"
 			"tall"	"16"
 			"antialias" "1"
 			}
@@ -633,7 +633,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"	"TF2 Icons"
+			"name"	"tf2icons"
 			"tall"	"18"
 			"antialias" "1"
 			}
@@ -642,7 +642,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"	"TF2 Icons"
+			"name"	"tf2icons"
 			"tall"	"20"
 			"antialias" "1"
 			}
@@ -673,8 +673,8 @@ Scheme
 		}
 		"100"
 		{
-			"font"	"resource/scheme/fonts/TF2 Icons.ttf"
-			"name"	"TF2 Icons"
+			"font"	"resource/scheme/fonts/tf2icons.ttf"
+			"name"	"tf2icons"
 		}
 	}
 }
